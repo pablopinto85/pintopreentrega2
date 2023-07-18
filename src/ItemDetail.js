@@ -2,7 +2,6 @@ import React,  { useState } from 'react';
 import './App.css'; 
 import ItemCounter from './ItemCounter'
 import { Link } from 'react-router-dom';
-import { CartPage } from "./cart";
 export const ItemDetails = ({data, cantidad})=>{
     
 
@@ -19,7 +18,7 @@ export const ItemDetails = ({data, cantidad})=>{
 
 <div key={data.id} className='detailContent'>
             <div className='cardDetail'>
-                    <img src={data.img} className='imagenDetail'/>
+                    <img src={data.img} className='imagenDetail'alt="joyas"/>
                     <p className='parrafoDetail'>{data.nombre}</p>
                     <p className='parrafoDetail'>Precio: ${data.precio} CLP</p>
                     <p className='cantidadCard'>Stock: {data.maximo}</p>

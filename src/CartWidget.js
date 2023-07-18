@@ -13,7 +13,7 @@ const CartWidget = () => {
   return (
     <>
       <Link to="/cart">
-        <a className="nav-link" href="#">
+        <a className="nav-link" href="cart">
           <FaShoppingCart />
           {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
         </a>

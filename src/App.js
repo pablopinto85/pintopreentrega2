@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./NavBar";
 import ItemListContainer from "./ItemListContainer";
 import ItemDetailContainer from './ItemDetailContainer'
-import CartPage from './cart';
+
 
 const App = () => {
   return (

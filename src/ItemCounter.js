@@ -1,8 +1,6 @@
 import {useState} from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
-import Productos from './data';
-import Item from './Item';
+
 
 const ItemCounter = ({maximo, onAdd, id}) => {
     const [cantidad, setCantidad] = useState(1)

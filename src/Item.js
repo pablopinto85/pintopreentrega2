@@ -8,7 +8,7 @@ export const Item = ({id, img, nombre, precio,})=>{
 
 <div key={id} className='cardContent'>
             <div className='card'>
-                    <img src={img} className='imagenCard'/>
+                    <img src={img} className='imagenCard' alt="joyas"/>
                     <p className='tituloCard'>{nombre}</p>
                     <p className='precioCard'>Precio: ${precio} CLP</p>
                     <Link to={`/detalles/${id}`} className='linkCard'>
