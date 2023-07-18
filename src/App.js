@@ -2,9 +2,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import React from "react";
 import './App.css'; 
 import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from "./NavBar";
-import ItemListContainer from "./ItemListContainer";
-import ItemDetailContainer from './ItemDetailContainer'
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from './components/ItemDetailContainer'
 
 
 const App = () => {

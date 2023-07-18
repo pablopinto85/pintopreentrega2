@@ -1,5 +1,5 @@
 import React,  { useState } from 'react';
-import './App.css'; 
+import '../App.css'; 
 import ItemCounter from './ItemCounter'
 import { Link } from 'react-router-dom';
 export const ItemDetails = ({data, cantidad})=>{
@@ -23,12 +23,15 @@ export const ItemDetails = ({data, cantidad})=>{
                     <p className='parrafoDetail'>Precio: ${data.precio} CLP</p>
                     <p className='cantidadCard'>Stock: {data.maximo}</p>
                     <p className='parrafoDetail'>Descripcion: {data.descripcion}</p>
-                    {show ? (<Link to="/cart" className="btn btnDetail btn-primary" type="button">
+                    {show ? (<Link to="/cart" className="container btn btnDetail btn-primary" type="button">
                 Ver Bolsa 
                 </Link>
+                
                 ) : <ItemCounter maximo={data.maximo} id={data.id} cantidad={cantidad} onAdd={agregarAlCarrito} /> 
                 }
-                </div>
+                <Link to="/" className="container btn btnDetail btn-primary" type="button">
+                Continuar Comprando
+                    </Link></div>
             </div>
         
     )

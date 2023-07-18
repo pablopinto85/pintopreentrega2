@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './App.css'; 
+import '../App.css'; 
 
 export const Item = ({id, img, nombre, precio,})=>{
     
@@ -12,7 +12,7 @@ export const Item = ({id, img, nombre, precio,})=>{
                     <p className='tituloCard'>{nombre}</p>
                     <p className='precioCard'>Precio: ${precio} CLP</p>
                     <Link to={`/detalles/${id}`} className='linkCard'>
-                    <button className='btn btnDetail btn-primary'>Ver Más</button>
+                    <button className='container btn btnDetail btn-primary'>Ver Más</button>
                     </Link>
             </div>
             

@@ -1,11 +1,9 @@
 
-import react from "react"
 import { Link } from "react-router-dom";
-import './App.css';
+import '../App.css';
 import Buscador from "./Buscador"
 import Navegacion from "./Navegacion";
 import CartWidget from "./CartWidget";
-import { FaShoppingCart } from 'react-icons/fa';
 import Logo from "./logo";
 
 const NavBar = () =>{
@@ -22,8 +20,8 @@ const NavBar = () =>{
           <li> <Navegacion/></li>
           </ul>
           <div className="bolsa">
-            <a className="nav-link bolsa" href="#">
-              <FaShoppingCart />
+            <a className="nav-link bolsa" href="home">
+              <CartWidget />
             </a>
           </div>
           <Buscador contBuscar="Buscar Productos" />

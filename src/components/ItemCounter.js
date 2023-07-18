@@ -1,6 +1,5 @@
 import {useState} from 'react';
-import './App.css';
-import { Link } from 'react-router-dom';
+import '../App.css';
 
 const ItemCounter = ({maximo, onAdd, id}) => {
     const [cantidad, setCantidad] = useState(1)
@@ -34,10 +33,7 @@ const ItemCounter = ({maximo, onAdd, id}) => {
                 <button className="btn" onClick={add}>+</button>
             </div>
             <div>
-            <button className="btn btnDetail btn-primary" onClick={()=> onAdd(id, cantidad)}>Agregar a la bolsa</button>
-            <Link to="/" className="btn btnDetail btn-primary" type="button">
-            Continuar Comprando
-                </Link>
+            <button className="container btn btnDetail btn-primary" onClick={()=> onAdd(id, cantidad)}>Agregar a la bolsa</button>
             </div>
             </div>
         </>

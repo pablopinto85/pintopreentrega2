@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../App.css';
 
 const Navegacion = () => {
     return (
@@ -13,7 +14,7 @@ const Navegacion = () => {
               <Link to='/categoria/aceroq' className="nav-link">Joyas Acero Quirurgico</Link>
             </li>
             <li className="nav-item">
-              <Link to='/categoria/plata' className="nav-link">Joyas de Plata</Link>
+              <Link to='/categoria/plata' className="nav-link ">Joyas de Plata</Link>
             </li>
           </ul>
         </>

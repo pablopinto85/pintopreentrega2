@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from '@mui/material/Tooltip';
-import Logonew from '../src/assets/Magnolia.jpg'
+import Logonew from '../assets/Magnolia.jpg'
 
 function Logo() {
     return (

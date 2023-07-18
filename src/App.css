@@ -6,6 +6,10 @@ body{
     background-attachment: fixed;
 }
 
+.active {
+    color: blue;
+  }
+
 .bolsa{
     padding-right: 20px;
     padding-top: 8px;
@@ -127,3 +131,4 @@ background-color: rgb(95, 151, 201)
     padding: 4px 8px;
     border-radius: 50%;
   }
+  
