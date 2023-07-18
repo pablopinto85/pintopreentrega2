@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pintopreentrega2/static/css/main.00bdf4b5.css",
+    "main.js": "/pintopreentrega2/static/js/main.3350e777.js",
+    "static/media/Magnolia.jpg": "/pintopreentrega2/static/media/Magnolia.5c542e027ae1728f5965.jpg",
+    "index.html": "/pintopreentrega2/index.html",
+    "main.00bdf4b5.css.map": "/pintopreentrega2/static/css/main.00bdf4b5.css.map",
+    "main.3350e777.js.map": "/pintopreentrega2/static/js/main.3350e777.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00bdf4b5.css",
+    "static/js/main.3350e777.js"
+  ]
+}
